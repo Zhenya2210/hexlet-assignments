@@ -61,6 +61,5 @@ public class ProductsController {
         productRepository.save(product);
         return productMapper.map(product);
     }
-
     // END
 }
